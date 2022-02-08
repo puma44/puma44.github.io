@@ -1,0 +1,67 @@
+.carousel {
+    min-height: 606px;
+    background-color: #EFE5DC;
+    padding: 55px 10px 55px 10px;
+    .title {
+        margin-bottom: 60px;
+    }
+    &__inner {
+        width: 1061px;
+        margin: 0 auto;
+        position: relative;
+    }
+    .slick-slide {
+        img {
+            width: 297px;
+            height: 304px;
+            margin-right: 85px;
+            &:nth-child(1) {
+                margin-left: 35px;
+            }
+            &:nth-child(3) {
+                margin-right: 35px;
+            }
+        }
+    }
+    .slick-prev, .slick-next {
+        position: absolute;
+        top: 133px;
+        left: -72px;
+        border: none;
+        background-color: #EFE5DC;
+        img {
+            width: 60px;
+            height: 60px;
+        }
+    }
+    .slick-next {
+        right: -72px;
+        left: auto;
+    }
+    .slick-track {
+        transform: translate3d(-2456px, 0px, 0px);
+    }
+    .slick-dots {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding-top: 55px;
+        list-style-type: none;
+        li {
+            margin: 0 25px;
+        }
+        button {
+            display: block;
+            width: 25px;
+            height: 25px;
+            padding: 0;
+            border: none;
+            border-radius: 100%;
+            background-color: rgba(196, 196, 196, 0.5);;
+            text-indent: -9999px;
+            }
+        li.slick-active button {
+            background-color: #DE8796;;
+        }
+    }
+}

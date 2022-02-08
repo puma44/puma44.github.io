@@ -1,0 +1,26 @@
+.footer {
+    height: 80px;
+    background-color: #DE8796;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    address {
+        font-style: normal;
+    }
+    &__address {
+        display: flex;
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 29px;
+        color: #000000;
+        text-decoration: none;
+        img {
+            margin-right: 10px;
+            height: 28px;
+        }
+    }
+    &__instagram {
+        margin-top: 7px;
+        margin-left: 3px;
+    }
+}

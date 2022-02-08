@@ -1,0 +1,60 @@
+.promo {
+    display: flex;
+    min-height: 860px;
+    .bgpink {
+        background-color: #DE8796;
+        width: 23.6%;
+        padding-top: 60px;
+        position: relative;
+    }
+    &__logo {
+        position: absolute;
+        z-index: 1;
+        top: 37%;
+        left: 5.5%;
+        img {
+            width: 25rem;
+        }
+    }
+    &__page {
+        background-color: #EFE5DC;
+        width: 76.4%;
+        padding: 55px 0 55px 0;
+    }
+    &__lang {
+        margin-left: 97px;
+    }
+    &__wrapper {
+        display: flex;
+        margin-top: 60px;
+        &_first {
+            margin-left: 192px;
+            span {
+                line-height: 65px;
+            }
+        }
+        &_second {
+            margin-left: 336px;
+            line-height: 39px;
+        }
+        &_third {
+            margin-left: 192px;
+            span {
+                line-height: 65px;
+            }
+        }
+        &_fourth {
+            margin-left: 37px;
+            a {
+                font-weight: 500;
+                text-decoration: underline;
+            }
+        }
+    }
+    &__descr {
+        position: relative;
+        font-weight: 300;
+        font-size: 30px;
+        color: #000000;
+    }
+}

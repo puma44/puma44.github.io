@@ -1,0 +1,24 @@
+.reviews {
+    padding: 0 105px 55px 105px;
+    height: 817px;
+    background-color: #EFE5DC;
+    &__photo {
+        margin-top: 66px;
+        img {
+            width: 414.38px;
+            height: 337px;
+            &:nth-child(1) {
+                margin-right: 30px;
+                width: 625px;
+                height: 337px;
+            }
+            &:nth-child(3) {
+                display: block;
+                margin: 0 auto;
+                margin-top: 58px;
+                width: 625px;
+                height: 194px;
+            }
+        }
+    }
+}

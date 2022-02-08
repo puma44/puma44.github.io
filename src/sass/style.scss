@@ -1,0 +1,16 @@
+* {
+    color: #000000;
+    font-family: 'Raleway';
+    font-weight: 300;
+    margin: 0;
+    .container {
+        max-width: 1278px; 
+        margin: 0 auto;
+    }
+}
+@import 'blocks/promo';
+@import 'blocks/title';
+@import 'blocks/services';
+@import 'blocks/carousel';
+@import 'blocks/reviews';
+@import 'blocks/footer';
