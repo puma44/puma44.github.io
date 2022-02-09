@@ -1,19 +1,26 @@
 .promo {
     display: flex;
     min-height: 860px;
+    position: relative;
+
     .bgpink {
         background-color: #DE8796;
         width: 23.6%;
         padding-top: 60px;
-        position: relative;
     }
     &__logo {
         position: absolute;
         z-index: 1;
-        top: 37%;
+        top: 28%;
         left: 5.5%;
+        a {
+            display: block;
+            border-radius: 50%;
+        }
         img {
-            width: 25rem;
+            width: 400px;
+            display: block;
+            border-radius: 50%;
         }
     }
     &__page {
@@ -27,25 +34,45 @@
     &__wrapper {
         display: flex;
         margin-top: 60px;
+        position: relative;
+        .arrow {
+            position: absolute;
+        }
         &_first {
             margin-left: 192px;
             span {
                 line-height: 65px;
             }
+            .arrow1 {
+                top: 71px;
+                left: -100px;
+            }
         }
         &_second {
             margin-left: 336px;
             line-height: 39px;
+            .arrow2 {
+                top: 53px;
+                left: -160px;
+            }
         }
         &_third {
             margin-left: 192px;
+            .arrow3 {
+                top: 10px;
+                left: -98px;
+            }
             span {
                 line-height: 65px;
             }
         }
         &_fourth {
             margin-left: 37px;
-            a {
+            .arrow4 {
+                top: -132px;
+                left: -22px;
+            }
+            span {
                 font-weight: 500;
                 text-decoration: underline;
             }
@@ -56,5 +83,6 @@
         font-weight: 300;
         font-size: 30px;
         color: #000000;
+        
     }
 }
