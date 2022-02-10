@@ -2,7 +2,6 @@
     display: flex;
     min-height: 860px;
     position: relative;
-
     .bgpink {
         background-color: #DE8796;
         width: 23.6%;
@@ -29,12 +28,15 @@
         padding: 55px 0 55px 0;
     }
     &__lang {
-        margin-left: 97px;
+        margin-left: 30%;
     }
     &__wrapper {
         display: flex;
         margin-top: 60px;
         position: relative;
+        .arrow-s {
+            display: none;
+        }
         .arrow {
             position: absolute;
         }
@@ -83,6 +85,5 @@
         font-weight: 300;
         font-size: 30px;
         color: #000000;
-        
     }
 }
