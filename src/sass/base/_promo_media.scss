@@ -232,15 +232,16 @@
             }
         }
         &__logo {
-            top: 43%;
+            top: 44%;
             left: 7%;
             img {
                 width: 200px;
             }
         }
         &__title {
-            font-size: 20px;
+            font-size: 26px;
             margin-top: 40px;
+            line-height: 30px;
         }
         &__descr {
             font-size: 12px;
@@ -304,6 +305,10 @@
 
 @media (max-width: 447px) {
     .promo {
+        &__logo {
+            font-size: 20px;
+            line-height: 25px;
+        }
         &__wrapper {
             &_second {
                 .arrow2-s {
