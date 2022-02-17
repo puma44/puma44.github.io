@@ -1,0 +1,141 @@
+@media (max-width: 1200px) {
+    .services {
+        h2 {
+            font-size: 40px;
+        }
+        &__wrapper {
+            margin-right: 20px;
+            &:nth-child(3) {
+                margin-right: 0;
+            }
+        }
+        &__header {
+            font-size: 25px;
+        }
+        hr {
+            width: 175px;
+        }
+        &__descr {
+            width: auto;
+            font-size: 15px;
+            margin-right: 9px;
+            }
+        
+        &__price {
+            width: 175px;
+            height: 46px;
+            font-size: 18px;
+            line-height: 45px;
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .services {
+        padding: 25px 5px;
+        &__wrapper {
+            margin-right: 20px;
+            margin-left: 10px;
+            &:nth-child(3) {
+                margin-right: 0;
+            }
+        }
+        &__header {
+            font-size: 25px;
+        }
+        &__descr {
+            font-size: 15px;
+            margin-left: 5px;
+            }
+        
+        &__price {
+            width: 175px;
+            height: 46px;
+            font-size: 18px;
+            line-height: 45px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .services {
+        padding: 25px 5px;
+        h2 {
+            font-size: 30px;
+        }
+        &__items {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        &__wrapper {
+            margin-right: 10px;
+            margin-left: 10px;
+            width: 44%;
+        }
+        &__header {
+            font-size: 25px;
+        }
+        &__descr {
+            font-size: 15px;
+            margin-left: 5px;
+            }
+        &__price {
+            width: 175px;
+            height: 46px;
+            font-size: 18px;
+            line-height: 45px;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .services {
+        &__wrapper {
+            width: 50%;
+            margin-top: 20px;
+        }
+        &__header {
+            font-size: 20px;
+        }
+        hr {
+            width: 60%;
+        }
+        &__descr {
+            font-size: 14px;
+            height: 160px;
+        }
+        &__price {
+            width: 150px;
+            height: 35px;
+            font-size: 16px;
+            line-height: 36px;
+        }
+    }
+}
+
+@media (max-width: 420px) {
+    .services {
+        h2 {
+            font-size: 26px;
+        }
+        &__wrapper {
+            width: 77%;
+        }
+        &__header {
+            font-size: 20px;
+        }
+        hr {
+            width: 60%;
+        }
+        &__descr {
+            font-size: 14px;
+            height: 160px;
+        }
+        &__price {
+            width: 150px;
+            height: 35px;
+            font-size: 16px;
+            line-height: 36px;
+        }
+    }
+}

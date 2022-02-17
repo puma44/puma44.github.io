@@ -203,6 +203,9 @@
 
 @media (max-width: 612px) {
     .promo {
+        &__title {
+            line-height: 40px;
+        }
         &__logo {
             top: 43%;
         }
